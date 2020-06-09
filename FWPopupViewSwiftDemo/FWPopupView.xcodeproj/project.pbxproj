@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49552D3D20B56C24000A1FA6 /* FWCustomPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49552D3C20B56C24000A1FA6 /* FWCustomPopupView.swift */; };
+		495AC10120688B3B002773F9 /* FWDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495AC10020688B3B002773F9 /* FWDemoViewController.swift */; };
+		49630493247E4215006B121E /* FWPopupRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49630486247E4215006B121E /* FWPopupRootViewController.swift */; };
+		49630494247E4215006B121E /* FWPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49630487247E4215006B121E /* FWPopupView.swift */; };
+		49630495247E4215006B121E /* FWRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49630488247E4215006B121E /* FWRadioButton.swift */; };
+		49630496247E4215006B121E /* FWSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49630489247E4215006B121E /* FWSheetView.swift */; };
+		49630497247E4215006B121E /* FWPopupSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963048A247E4215006B121E /* FWPopupSWindow.swift */; };
+		49630498247E4215006B121E /* FWPopupCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963048B247E4215006B121E /* FWPopupCategory.swift */; };
+		49630499247E4215006B121E /* FWCustomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963048C247E4215006B121E /* FWCustomSheetView.swift */; };
+		4963049A247E4215006B121E /* FWPopupView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4963048E247E4215006B121E /* FWPopupView.bundle */; };
+		4963049B247E4215006B121E /* FWPopupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963048F247E4215006B121E /* FWPopupItem.swift */; };
+		4963049C247E4215006B121E /* FWAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49630490247E4215006B121E /* FWAlertView.swift */; };
+		4963049D247E4215006B121E /* FWDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49630491247E4215006B121E /* FWDateView.swift */; };
+		4963049E247E4215006B121E /* FWMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49630492247E4215006B121E /* FWMenuView.swift */; };
+		496D142924809975007CB41A /* FWCustomPopupView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496D142824809975007CB41A /* FWCustomPopupView2.swift */; };
+		496D142B248099D3007CB41A /* FWCustomPopupView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 496D142A248099D3007CB41A /* FWCustomPopupView2.xib */; };
+		49812D78205F915600639DDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49812D77205F915600639DDC /* AppDelegate.swift */; };
+		49812D7F205F915600639DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49812D7E205F915600639DDC /* Assets.xcassets */; };
+		49812D82205F915600639DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49812D80205F915600639DDC /* LaunchScreen.storyboard */; };
+		49A7307D20B6AF8A002A989C /* FWMenuViewDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A7307C20B6AF8A002A989C /* FWMenuViewDemoVC.swift */; };
+		49A7307F20B6B187002A989C /* FWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A7307E20B6B187002A989C /* FWNavigationController.swift */; };
+		49A7308120B6D395002A989C /* FWCustomPopupDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A7308020B6D395002A989C /* FWCustomPopupDemoVC.swift */; };
+		49F7A85D2214106B002267FD /* FWPopupViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7A85C2214106B002267FD /* FWPopupViewUITests.swift */; };
+		49F7A88C221411B5002267FD /* FWPopupViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7A88B221411B5002267FD /* FWPopupViewTests.swift */; };
+		56B3717CE2F2FC8C487C2BB0 /* libPods-FWPopupView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D859FC06A597D0EEFB02CB7 /* libPods-FWPopupView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49F7A85F2214106B002267FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49812D6C205F915600639DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49812D73205F915600639DDC;
+			remoteInfo = FWPopupView;
+		};
+		49F7A88E221411B5002267FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49812D6C205F915600639DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49812D73205F915600639DDC;
+			remoteInfo = FWPopupView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16EB712AF4359147E48A4A6C /* Pods-FWPopupView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWPopupView.release.xcconfig"; path = "Target Support Files/Pods-FWPopupView/Pods-FWPopupView.release.xcconfig"; sourceTree = "<group>"; };
+		49552D3C20B56C24000A1FA6 /* FWCustomPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWCustomPopupView.swift; sourceTree = "<group>"; };
+		495AC10020688B3B002773F9 /* FWDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWDemoViewController.swift; sourceTree = "<group>"; };
+		49630486247E4215006B121E /* FWPopupRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWPopupRootViewController.swift; sourceTree = "<group>"; };
+		49630487247E4215006B121E /* FWPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWPopupView.swift; sourceTree = "<group>"; };
+		49630488247E4215006B121E /* FWRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWRadioButton.swift; sourceTree = "<group>"; };
+		49630489247E4215006B121E /* FWSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWSheetView.swift; sourceTree = "<group>"; };
+		4963048A247E4215006B121E /* FWPopupSWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWPopupSWindow.swift; sourceTree = "<group>"; };
+		4963048B247E4215006B121E /* FWPopupCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWPopupCategory.swift; sourceTree = "<group>"; };
+		4963048C247E4215006B121E /* FWCustomSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWCustomSheetView.swift; sourceTree = "<group>"; };
+		4963048E247E4215006B121E /* FWPopupView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FWPopupView.bundle; sourceTree = "<group>"; };
+		4963048F247E4215006B121E /* FWPopupItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWPopupItem.swift; sourceTree = "<group>"; };
+		49630490247E4215006B121E /* FWAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWAlertView.swift; sourceTree = "<group>"; };
+		49630491247E4215006B121E /* FWDateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWDateView.swift; sourceTree = "<group>"; };
+		49630492247E4215006B121E /* FWMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWMenuView.swift; sourceTree = "<group>"; };
+		496D142824809975007CB41A /* FWCustomPopupView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWCustomPopupView2.swift; sourceTree = "<group>"; };
+		496D142A248099D3007CB41A /* FWCustomPopupView2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FWCustomPopupView2.xib; sourceTree = "<group>"; };
+		49812D74205F915600639DDC /* FWPopupView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FWPopupView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49812D77205F915600639DDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49812D7E205F915600639DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49812D81205F915600639DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49812D83205F915600639DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A7307C20B6AF8A002A989C /* FWMenuViewDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWMenuViewDemoVC.swift; sourceTree = "<group>"; };
+		49A7307E20B6B187002A989C /* FWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWNavigationController.swift; sourceTree = "<group>"; };
+		49A7308020B6D395002A989C /* FWCustomPopupDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWCustomPopupDemoVC.swift; sourceTree = "<group>"; };
+		49F7A85A2214106B002267FD /* FWPopupViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FWPopupViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F7A85C2214106B002267FD /* FWPopupViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWPopupViewUITests.swift; sourceTree = "<group>"; };
+		49F7A85E2214106B002267FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F7A889221411B5002267FD /* FWPopupViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FWPopupViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F7A88B221411B5002267FD /* FWPopupViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWPopupViewTests.swift; sourceTree = "<group>"; };
+		49F7A88D221411B5002267FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D859FC06A597D0EEFB02CB7 /* libPods-FWPopupView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FWPopupView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6363DF5ABBB1DEAF568394 /* Pods-FWPopupView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FWPopupView.debug.xcconfig"; path = "Target Support Files/Pods-FWPopupView/Pods-FWPopupView.debug.xcconfig"; sourceTree = "<group>"; };
+		E68A3B6EB8B1506E0B09A7B8 /* Pods_FWPopupViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FWPopupViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB7438A54E83AA546D1BB16 /* Pods_FWPopupViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FWPopupViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49812D71205F915600639DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B3717CE2F2FC8C487C2BB0 /* libPods-FWPopupView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F7A8572214106B002267FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F7A886221411B5002267FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CFA26EB7985F6595F22C984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB7438A54E83AA546D1BB16 /* Pods_FWPopupViewTests.framework */,
+				E68A3B6EB8B1506E0B09A7B8 /* Pods_FWPopupViewUITests.framework */,
+				5D859FC06A597D0EEFB02CB7 /* libPods-FWPopupView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49630485247E4215006B121E /* FWPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				49630487247E4215006B121E /* FWPopupView.swift */,
+				4963048A247E4215006B121E /* FWPopupSWindow.swift */,
+				49630490247E4215006B121E /* FWAlertView.swift */,
+				4963048C247E4215006B121E /* FWCustomSheetView.swift */,
+				49630491247E4215006B121E /* FWDateView.swift */,
+				49630492247E4215006B121E /* FWMenuView.swift */,
+				4963048B247E4215006B121E /* FWPopupCategory.swift */,
+				4963048F247E4215006B121E /* FWPopupItem.swift */,
+				49630486247E4215006B121E /* FWPopupRootViewController.swift */,
+				49630488247E4215006B121E /* FWRadioButton.swift */,
+				49630489247E4215006B121E /* FWSheetView.swift */,
+				4963048D247E4215006B121E /* Resources */,
+			);
+			name = FWPopupView;
+			path = ../../FWPopupView;
+			sourceTree = "<group>";
+		};
+		4963048D247E4215006B121E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4963048E247E4215006B121E /* FWPopupView.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		49812D6B205F915600639DDC = {
+			isa = PBXGroup;
+			children = (
+				49812D76205F915600639DDC /* FWPopupView */,
+				49F7A88A221411B5002267FD /* FWPopupViewTests */,
+				49F7A85B2214106B002267FD /* FWPopupViewUITests */,
+				49812D75205F915600639DDC /* Products */,
+				F3DF37B08B601E36F660A46C /* Pods */,
+				3CFA26EB7985F6595F22C984 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49812D75205F915600639DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49812D74205F915600639DDC /* FWPopupView.app */,
+				49F7A85A2214106B002267FD /* FWPopupViewUITests.xctest */,
+				49F7A889221411B5002267FD /* FWPopupViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49812D76205F915600639DDC /* FWPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				49630485247E4215006B121E /* FWPopupView */,
+				49812D77205F915600639DDC /* AppDelegate.swift */,
+				49A7307E20B6B187002A989C /* FWNavigationController.swift */,
+				495AC10020688B3B002773F9 /* FWDemoViewController.swift */,
+				49A7307C20B6AF8A002A989C /* FWMenuViewDemoVC.swift */,
+				49A7308020B6D395002A989C /* FWCustomPopupDemoVC.swift */,
+				49552D3C20B56C24000A1FA6 /* FWCustomPopupView.swift */,
+				496D142824809975007CB41A /* FWCustomPopupView2.swift */,
+				496D142A248099D3007CB41A /* FWCustomPopupView2.xib */,
+				49812D7E205F915600639DDC /* Assets.xcassets */,
+				49812D80205F915600639DDC /* LaunchScreen.storyboard */,
+				49812D83205F915600639DDC /* Info.plist */,
+			);
+			path = FWPopupView;
+			sourceTree = "<group>";
+		};
+		49F7A85B2214106B002267FD /* FWPopupViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49F7A85C2214106B002267FD /* FWPopupViewUITests.swift */,
+				49F7A85E2214106B002267FD /* Info.plist */,
+			);
+			path = FWPopupViewUITests;
+			sourceTree = "<group>";
+		};
+		49F7A88A221411B5002267FD /* FWPopupViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				49F7A88B221411B5002267FD /* FWPopupViewTests.swift */,
+				49F7A88D221411B5002267FD /* Info.plist */,
+			);
+			path = FWPopupViewTests;
+			sourceTree = "<group>";
+		};
+		F3DF37B08B601E36F660A46C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16EB712AF4359147E48A4A6C /* Pods-FWPopupView.release.xcconfig */,
+				7C6363DF5ABBB1DEAF568394 /* Pods-FWPopupView.debug.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49812D73205F915600639DDC /* FWPopupView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49812D9C205F915600639DDC /* Build configuration list for PBXNativeTarget "FWPopupView" */;
+			buildPhases = (
+				6C591D4F0E62436ABB140884 /* [CP] Check Pods Manifest.lock */,
+				49812D70205F915600639DDC /* Sources */,
+				49812D71205F915600639DDC /* Frameworks */,
+				49812D72205F915600639DDC /* Resources */,
+				D1BC18858F040B275B5E22C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FWPopupView;
+			productName = FWPopupView;
+			productReference = 49812D74205F915600639DDC /* FWPopupView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49F7A8592214106B002267FD /* FWPopupViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F7A8612214106B002267FD /* Build configuration list for PBXNativeTarget "FWPopupViewUITests" */;
+			buildPhases = (
+				49F7A8562214106B002267FD /* Sources */,
+				49F7A8572214106B002267FD /* Frameworks */,
+				49F7A8582214106B002267FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F7A8602214106B002267FD /* PBXTargetDependency */,
+			);
+			name = FWPopupViewUITests;
+			productName = FWPopupViewUITests;
+			productReference = 49F7A85A2214106B002267FD /* FWPopupViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		49F7A888221411B5002267FD /* FWPopupViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F7A890221411B5002267FD /* Build configuration list for PBXNativeTarget "FWPopupViewTests" */;
+			buildPhases = (
+				49F7A885221411B5002267FD /* Sources */,
+				49F7A886221411B5002267FD /* Frameworks */,
+				49F7A887221411B5002267FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F7A88F221411B5002267FD /* PBXTargetDependency */,
+			);
+			name = FWPopupViewTests;
+			productName = FWPopupViewTests;
+			productReference = 49F7A889221411B5002267FD /* FWPopupViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49812D6C205F915600639DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = xfg;
+				TargetAttributes = {
+					49812D73205F915600639DDC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					49F7A8592214106B002267FD = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49812D73205F915600639DDC;
+					};
+					49F7A888221411B5002267FD = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49812D73205F915600639DDC;
+					};
+				};
+			};
+			buildConfigurationList = 49812D6F205F915600639DDC /* Build configuration list for PBXProject "FWPopupView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49812D6B205F915600639DDC;
+			productRefGroup = 49812D75205F915600639DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49812D73205F915600639DDC /* FWPopupView */,
+				49F7A888221411B5002267FD /* FWPopupViewTests */,
+				49F7A8592214106B002267FD /* FWPopupViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49812D72205F915600639DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496D142B248099D3007CB41A /* FWCustomPopupView2.xib in Resources */,
+				4963049A247E4215006B121E /* FWPopupView.bundle in Resources */,
+				49812D82205F915600639DDC /* LaunchScreen.storyboard in Resources */,
+				49812D7F205F915600639DDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F7A8582214106B002267FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F7A887221411B5002267FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C591D4F0E62436ABB140884 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FWPopupView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1BC18858F040B275B5E22C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FWPopupView/Pods-FWPopupView-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FWPopupView/Pods-FWPopupView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49812D70205F915600639DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496D142924809975007CB41A /* FWCustomPopupView2.swift in Sources */,
+				4963049E247E4215006B121E /* FWMenuView.swift in Sources */,
+				4963049C247E4215006B121E /* FWAlertView.swift in Sources */,
+				4963049D247E4215006B121E /* FWDateView.swift in Sources */,
+				49630494247E4215006B121E /* FWPopupView.swift in Sources */,
+				49A7307D20B6AF8A002A989C /* FWMenuViewDemoVC.swift in Sources */,
+				49630493247E4215006B121E /* FWPopupRootViewController.swift in Sources */,
+				49630498247E4215006B121E /* FWPopupCategory.swift in Sources */,
+				4963049B247E4215006B121E /* FWPopupItem.swift in Sources */,
+				49A7307F20B6B187002A989C /* FWNavigationController.swift in Sources */,
+				49812D78205F915600639DDC /* AppDelegate.swift in Sources */,
+				49A7308120B6D395002A989C /* FWCustomPopupDemoVC.swift in Sources */,
+				49552D3D20B56C24000A1FA6 /* FWCustomPopupView.swift in Sources */,
+				49630496247E4215006B121E /* FWSheetView.swift in Sources */,
+				49630497247E4215006B121E /* FWPopupSWindow.swift in Sources */,
+				495AC10120688B3B002773F9 /* FWDemoViewController.swift in Sources */,
+				49630499247E4215006B121E /* FWCustomSheetView.swift in Sources */,
+				49630495247E4215006B121E /* FWRadioButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F7A8562214106B002267FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F7A85D2214106B002267FD /* FWPopupViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F7A885221411B5002267FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F7A88C221411B5002267FD /* FWPopupViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49F7A8602214106B002267FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49812D73205F915600639DDC /* FWPopupView */;
+			targetProxy = 49F7A85F2214106B002267FD /* PBXContainerItemProxy */;
+		};
+		49F7A88F221411B5002267FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49812D73205F915600639DDC /* FWPopupView */;
+			targetProxy = 49F7A88E221411B5002267FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49812D80205F915600639DDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49812D81205F915600639DDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49812D9A205F915600639DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49812D9B205F915600639DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49812D9D205F915600639DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6363DF5ABBB1DEAF568394 /* Pods-FWPopupView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4Y22J2KN7;
+				INFOPLIST_FILE = FWPopupView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfg.FWPopupView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49812D9E205F915600639DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16EB712AF4359147E48A4A6C /* Pods-FWPopupView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4Y22J2KN7;
+				INFOPLIST_FILE = FWPopupView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfg.FWPopupView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49F7A8622214106B002267FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3WDRKDVER;
+				INFOPLIST_FILE = FWPopupViewUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfg2.FWPopupViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FWPopupView;
+			};
+			name = Debug;
+		};
+		49F7A8632214106B002267FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3WDRKDVER;
+				INFOPLIST_FILE = FWPopupViewUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfg2.FWPopupViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FWPopupView;
+			};
+			name = Release;
+		};
+		49F7A891221411B5002267FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3WDRKDVER;
+				INFOPLIST_FILE = FWPopupViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfg.FWPopupViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FWPopupView.app/FWPopupView";
+			};
+			name = Debug;
+		};
+		49F7A892221411B5002267FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3WDRKDVER;
+				INFOPLIST_FILE = FWPopupViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfg.FWPopupViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FWPopupView.app/FWPopupView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49812D6F205F915600639DDC /* Build configuration list for PBXProject "FWPopupView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49812D9A205F915600639DDC /* Debug */,
+				49812D9B205F915600639DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49812D9C205F915600639DDC /* Build configuration list for PBXNativeTarget "FWPopupView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49812D9D205F915600639DDC /* Debug */,
+				49812D9E205F915600639DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F7A8612214106B002267FD /* Build configuration list for PBXNativeTarget "FWPopupViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F7A8622214106B002267FD /* Debug */,
+				49F7A8632214106B002267FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F7A890221411B5002267FD /* Build configuration list for PBXNativeTarget "FWPopupViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F7A891221411B5002267FD /* Debug */,
+				49F7A892221411B5002267FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49812D6C205F915600639DDC /* Project object */;
+}
