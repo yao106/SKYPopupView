@@ -408,11 +408,11 @@ open class FWAlertViewProperty: FWPopupViewProperty {
     @objc open var inputTextColor: UIColor = kPV_RGBA(r: 51, g: 51, b: 51, a: 1)
     
     // 确定按钮默认名称
-    @objc open var defaultTextOK = "知道了"
+    @objc open var defaultTextOK = NSLocalizedString("Got it", comment: "知道了")
     // 取消按钮默认名称
-    @objc open var defaultTextCancel = "取消"
+    @objc open var defaultTextCancel = NSLocalizedString("Cancel", comment: "取消")
     // 确定按钮默认名称
-    @objc open var defaultTextConfirm = "确定"
+    @objc open var defaultTextConfirm = NSLocalizedString("Confirm", comment: "确定")
     
     
     public override func reSetParams() {

@@ -129,9 +129,9 @@ open class FWDateViewProperty : FWPopupViewProperty {
     // 按钮文字大小
     @objc public var btnTitleFont: CGFloat = 17.0
     // 取消按钮名称
-    @objc public var cancelBtnTitle = "取消"
+    @objc public var cancelBtnTitle = NSLocalizedString("Cancel", comment: "取消")
     // 确定按钮名称
-    @objc public var confirmBtnTitle = "确定"
+    @objc public var confirmBtnTitle = NSLocalizedString("Confirm", comment: "确定")
     
     public override func reSetParams() {
         super.reSetParams()

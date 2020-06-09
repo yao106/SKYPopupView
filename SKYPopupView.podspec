@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint FWPopupView.podspec' to ensure this is a
+#  Be sure to run `pod spec lint SKYPopupView.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "FWPopupView"
-  s.version      = "4.1.5"
+  s.name         = "SKYPopupView"
+  s.version      = "1.0.0"
   s.summary      = "自定义弹窗"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   自定义弹窗，Alert、Sheet、Custom类型
                    DESC
 
-  s.homepage     = "https://github.com/choiceyou/FWPopupView"
+  s.homepage     = "https://github.com/yao106/SKYPopupView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "xfg" => "853299701@qq.com" }
+  s.author             = { "xfg" => "" }
   # Or just: s.author    = "xfg"
   # s.authors            = { "xfg" => "853299701@qq.com" }
   # s.social_media_url   = "http://twitter.com/xfg"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/choiceyou/FWPopupView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/yao106/SKYPopupView.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FWPopupView", "FWPopupView/**/*.swift"
+  s.source_files  = "SKYPopupView", "FWPopupView/**/*.swift"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

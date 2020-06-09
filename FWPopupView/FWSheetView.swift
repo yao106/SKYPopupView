@@ -265,7 +265,7 @@ open class FWSheetViewProperty: FWPopupViewProperty {
     // 取消按钮距离头部的距离
     @objc public var cancelBtnMarginTop: CGFloat = 6
     // 取消按钮名称
-    @objc public var cancelItemTitle = "取消"
+    @objc public var cancelItemTitle = NSLocalizedString("Cancel", comment: "取消")
     // 取消按钮字体颜色
     @objc public var cancelItemTitleColor: UIColor?
     // 取消按钮字体大小
